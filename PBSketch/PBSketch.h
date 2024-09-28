@@ -9,8 +9,8 @@
 #include "burst/BOne.h"
 #include "burst/BTwo.h"
 
-#include "../util/peridoc.hpp"
-#include "../util/burstSetter.h"
+#include "../common/peridoc.hpp"
+#include "../common/burstSetter.h"
 #include "burst/burstpartsetter.h"
 #include "periodicpartsetter.h"
 

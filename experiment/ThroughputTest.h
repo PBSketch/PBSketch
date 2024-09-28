@@ -8,7 +8,7 @@
 #include <chrono>
 
 #include "../PBSketch/PBSketch.h"
-#include "../BurstSketchAddPeriodicSketch/BurstSketchAddPeriodicSketch.h"
+#include "../BaseLine/BaseLine.h"
 
 class ThroughputTest {
 public:

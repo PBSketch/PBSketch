@@ -7,17 +7,17 @@ add_executable(PBSketch
         main.cpp
 #        ratelimiting/main.cpp
 
-        util/murmur3.cc
+        common/murmur3.cc
         correctdetector/burstCorrectDetector.h
         correctdetector/periodCorrectDetector.cpp
         correctdetector/periodCorrectDetector.h
 
-        util/burstSetter.h
+        common/burstSetter.h
         PBSketch/burst/burstpartsetter.h
         PBSketch/burst/burstpartsetter.h
         PBSketch/periodicpartsetter.h
-        util/burstsetter.cpp
-        util/burstsetter.cpp
+        common/burstsetter.cpp
+        common/burstsetter.cpp
         correctdetector/PBDetector.h
         experiment/utils/performance.cpp
         experiment/utils/performance.h
@@ -39,19 +39,19 @@ add_executable(PBSketch
         PBSketch/Heap.cpp
         PBSketch/periodichash.h
 
-        BurstSketchAddPeriodicSketch/BurstSketchAddPeriodicSketch.h
-        BurstSketchAddPeriodicSketch/GSUBucket.h
-        BurstSketchAddPeriodicSketch/GSUHeap.cpp
-        BurstSketchAddPeriodicSketch/GSUHeap.h
-        BurstSketchAddPeriodicSketch/PeriodicSketch.h
-        BurstSketchAddPeriodicSketch/periodicutil.cpp
-        BurstSketchAddPeriodicSketch/periodicutil.h
-        BurstSketchAddPeriodicSketch/periodichash.h
-        BurstSketchAddPeriodicSketch/periodicpartsetter.h
-        BurstSketchAddPeriodicSketch/burst/BurstSketchStageOne.h
-        BurstSketchAddPeriodicSketch/burst/BurstSketchStageTwo.h
-        BurstSketchAddPeriodicSketch/burst/burstpartsetter.h
-        BurstSketchAddPeriodicSketch/burst/UpDownBurst.h
+        BaseLine/BaseLine.h
+        BaseLine/GSUBucket.h
+        BaseLine/GSUHeap.cpp
+        BaseLine/GSUHeap.h
+        BaseLine/PeriodicSketch.h
+        BaseLine/periodicutil.cpp
+        BaseLine/periodicutil.h
+        BaseLine/periodichash.h
+        BaseLine/periodicpartsetter.h
+        BaseLine/burst/BurstSketchStageOne.h
+        BaseLine/burst/BurstSketchStageTwo.h
+        BaseLine/burst/burstpartsetter.h
+        BaseLine/burst/UpDownBurst.h
 
         experiment/ThroughputTest.cpp
         experiment/ThroughputTest.h

@@ -5,7 +5,7 @@
 #ifndef BRUSTSKETCHPERIOD_SETTERBUILDER_H
 #define BRUSTSKETCHPERIOD_SETTERBUILDER_H
 
-#include "../../util/burstSetter.h"
+#include "../../common//burstSetter.h"
 #include "../../PBSketch/burst/burstpartsetter.h"
 #include "../../PBSketch/periodicpartsetter.h"
 

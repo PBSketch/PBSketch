@@ -9,8 +9,8 @@
 #include "burst/BurstSketchStageOne.h"
 #include "burst/BurstSketchStageTwo.h"
 
-#include "../util/peridoc.hpp"
-#include "../util/burstSetter.h"
+#include "../common/peridoc.hpp"
+#include "../common/burstSetter.h"
 #include "burst/burstpartsetter.h"
 #include "periodicpartsetter.h"
 

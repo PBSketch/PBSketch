@@ -6,7 +6,7 @@
 #define BRUSTSKETCHPERIOD_COMPARER_H
 
 #include "performance.h"
-#include "../../util/peridoc.hpp"
+#include "../../common/peridoc.hpp"
 #include <map>
 
 class Comparer {

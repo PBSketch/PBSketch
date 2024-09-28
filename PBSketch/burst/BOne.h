@@ -3,7 +3,7 @@
 
 #include <cstdint>
 #include <cstdlib>
-#include "../../util/hash.h"
+#include "../../common/hash.h"
 
 template<typename ID_TYPE, typename DATA_TYPE>
 class BOne{

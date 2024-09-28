@@ -10,7 +10,7 @@
 #include <map>
 #include <algorithm>
 
-#include "../util/peridoc.hpp"
+#include "../common/peridoc.hpp"
 
 class Heap{
 public:
