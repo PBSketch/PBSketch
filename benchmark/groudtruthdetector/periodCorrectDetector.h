@@ -3,8 +3,8 @@
 
 
 #include <map>
-#include "../common/peridoc.hpp"
-#include "../common/Burst.h"
+#include "../../common/peridoc.hpp"
+#include "../../common/Burst.h"
 
 
 

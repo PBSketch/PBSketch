@@ -26,7 +26,7 @@ void CounterCatchError::windowOperate(uint64_t windowNum) {
 //        iter.second = 0;
 //    }
 
-    //In order to complete the experiment faster and reduce memory consumption, we chose to clear the counters to simulate clearing counter.
+    //In order to complete the benchmark faster and reduce memory consumption, we chose to clear the counters to simulate clearing counter.
     // But in the real Rate Limiting scenes, we just set all counter to 0 like above.
     counters.clear();
     for(auto iter = checker.begin(); iter != checker.end();){

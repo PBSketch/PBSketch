@@ -5,12 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(PBSketch
         main.cpp
-#        ratelimiting/main.cpp
 
         common/murmur3.cc
-        correctdetector/burstCorrectDetector.h
-        correctdetector/periodCorrectDetector.cpp
-        correctdetector/periodCorrectDetector.h
+        benchmark/groudtruthdetector/burstCorrectDetector.h
+        benchmark/groudtruthdetector/periodCorrectDetector.cpp
+        benchmark/groudtruthdetector/periodCorrectDetector.h
 
         common/burstSetter.h
         PBSketch/burst/burstpartsetter.h
@@ -18,13 +17,13 @@ add_executable(PBSketch
         PBSketch/periodicpartsetter.h
         common/burstsetter.cpp
         common/burstsetter.cpp
-        correctdetector/PBDetector.h
-        experiment/utils/performance.cpp
-        experiment/utils/performance.h
-        experiment/utils/Comparer.cpp
-        experiment/utils/Comparer.h
-        experiment/memorytest.cpp
-        experiment/memorytest.h
+        benchmark/groudtruthdetector/PBDetector.h
+        benchmark/utils/performance.cpp
+        benchmark/utils/performance.h
+        benchmark/utils/Comparer.cpp
+        benchmark/utils/Comparer.h
+        benchmark/memorytest.cpp
+        benchmark/memorytest.h
 
 
         PBSketch/burst/BOne.h
@@ -53,11 +52,11 @@ add_executable(PBSketch
         BaseLine/burst/burstpartsetter.h
         BaseLine/burst/UpDownBurst.h
 
-        experiment/ThroughputTest.cpp
-        experiment/ThroughputTest.h
-        experiment/utils/Setterbuilder.cpp
-        experiment/utils/Setterbuilder.h
-        experiment/utils/ParamBuilder.h
+        benchmark/ThroughputTest.cpp
+        benchmark/ThroughputTest.h
+        benchmark/utils/Setterbuilder.cpp
+        benchmark/utils/Setterbuilder.h
+        benchmark/utils/ParamBuilder.h
 
         ratelimiting/LeakyBucket.cpp
         ratelimiting/LeakyBucket.h

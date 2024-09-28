@@ -7,12 +7,14 @@
 #include <fstream>
 
 
-#include "../correctdetector/PBDetector.h"
+#include "groudtruthdetector/PBDetector.h"
 #include "utils/Comparer.h"
 #include "utils/Setterbuilder.h"
 #include "utils/ParamBuilder.h"
 
 void ThroughputTest::run(std::string _datasetPath, int _runLength) {
+    std::cout << "throughput test \n";
+
     const int CellNum = SetterBuilder::NormalCellNum;
     const int Fails = SetterBuilder::NormalFailsNum;
 

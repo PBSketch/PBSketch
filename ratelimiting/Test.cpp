@@ -6,10 +6,12 @@
 #include "PBSketchLeakyBucket.h"
 #include "PBSketchCounterCatchError.h"
 #include "CounterCatchError.h"
-#include "../datasetAnalysis/CAIDADataset.h"
-#include "../experiment/utils/Setterbuilder.h"
+#include "../common/CAIDADataset.h"
+#include "../benchmark//utils/Setterbuilder.h"
 
 void Test::limitNumTestCaida(std::string _datasetPath, int _runLength) {
+    std::cout << "limit num test \n";
+
     uint64_t mask = 0xFFFFFFFF00000000;
     int memory = 200;
     std::set<uint64_t> ids;
@@ -89,7 +91,9 @@ void Test::limitNumTestCaida(std::string _datasetPath, int _runLength) {
     }
 }
 
-void Test::bucketNumTestCaida(std::string _datasetPath, int _runLength) {
+void Test::bucketAmountTestCaida(std::string _datasetPath, int _runLength) {
+    std::cout << "bucket amount test \n";
+
     uint64_t mask = 0xFFFFFFFF00000000;
     int memory = 200;
     std::set<uint64_t> ids;

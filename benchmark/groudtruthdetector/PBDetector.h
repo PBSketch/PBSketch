@@ -4,7 +4,7 @@
 #include "burstCorrectDetector.h"
 #include "periodCorrectDetector.h"
 
-#include "../datasetAnalysis/CAIDADataset.h"
+#include "../../common/CAIDADataset.h"
 
 template<typename ID_TYPE>
 class PBDetector {

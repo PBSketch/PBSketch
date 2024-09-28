@@ -5,7 +5,7 @@
 #ifndef BRUSTSKETCHPERIOD_MEMORYTEST_H
 #define BRUSTSKETCHPERIOD_MEMORYTEST_H
 
-#include "../datasetAnalysis/CAIDADataset.h"
+#include "../common/CAIDADataset.h"
 #include <fstream>
 #include "utils/Comparer.h"
 #include "../PBSketch/PBSketch.h"

@@ -20,7 +20,7 @@ public:
     static const int limitNum = 50;
 
     static void limitNumTestCaida(std::string _datasetPath, int _runLength);
-    static void bucketNumTestCaida(std::string _datasetPath, int _runLength);
+    static void bucketAmountTestCaida(std::string _datasetPath, int _runLength);
 };
 
 

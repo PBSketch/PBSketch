@@ -1,14 +1,14 @@
 #ifndef _CORRECTDETECTOR_H_
 #define _CORRECTDETECTOR_H_
 
-#include "../common/Burst.h"
+#include "../../common/Burst.h"
 
 #include <map>
 #include <vector>
 #include <assert.h>
 #include "iostream"
 
-#include "../common/burstSetter.h"
+#include "../../common/burstSetter.h"
 
 
 template<typename ID_TYPE>

@@ -3,7 +3,7 @@
 //
 
 #include "memorytest.h"
-#include "../correctdetector/PBDetector.h"
+#include "groudtruthdetector/PBDetector.h"
 #include "../BaseLine//BaseLine.h"
 #include "utils/Setterbuilder.h"
 #include "utils/ParamBuilder.h"
@@ -21,6 +21,8 @@ BurstSetter MemoryTest::getNormalBurstSetter() {
 }
 
 void MemoryTest::run(std::string _datasetPath, int _runLength) {
+    std::cout << "memory test \n";
+
 
     const int CellNum = SetterBuilder::NormalCellNum;
 
