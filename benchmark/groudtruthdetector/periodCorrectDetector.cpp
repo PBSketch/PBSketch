@@ -1,3 +1,4 @@
+#include <iostream>
 #include "periodCorrectDetector.h"
 
 std::map<PeridocItem, PBflow> &PeriodCorrectDetector::run() {
@@ -15,6 +16,7 @@ std::map<PeridocItem, PBflow> &PeriodCorrectDetector::run() {
 
             uint64_t period = iter.start_window - pretimes[key];
             period /= delta_;
+
             pretimes[key] = iter.start_window;
 
             PeridocItem peridocItem;
@@ -37,4 +39,11 @@ std::map<PeridocItem, PBflow> &PeriodCorrectDetector::run() {
     return GSU;
 }
 
-PeriodCorrectDetector::PeriodCorrectDetector(std::vector<Burst<uint64_t>> &_gt, double _delta): ground_truth(_gt),delta_(_delta) {}
+//PeriodCorrectDetector::PeriodCorrectDetector(std::vector<Burst<uint64_t>> &_gt, double _delta): ground_truth(_gt),delta_(_delta) {}
+PeriodCorrectDetector::PeriodCorrectDetector(std::vector<Burst<uint64_t>> &_gt, double _delta): ground_truth(_gt) {
+    if(_delta == 0){
+        delta_ = 1;
+    }else{
+        delta_ = 2 * _delta;
+    }
+}

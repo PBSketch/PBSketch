@@ -40,7 +40,7 @@ void MemoryTest::run(std::string _datasetPath, int _runLength) {
 
 
     BurstSetter burstSetter = getNormalBurstSetter();
-    PBDetector<uint64_t> pBDetector(burstSetter);
+    PBDetector<uint64_t> pBDetector(burstSetter, getNormalPeriodicPartSetter().delta_);
 
     bool countBased = burstSetter.countBased_;
     int topK = 100;

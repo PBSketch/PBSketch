@@ -31,7 +31,7 @@ BurstPartSetter SetterBuilder::getNormalBurstPartSetter() {
 PeriodicPartSetter SetterBuilder::getNormalPeriodicPartSetter() {
     int periodicMemory = 100000;//(B)
     double CMGSUratio = 0.1;
-    double delta = 1;
+    double delta = 0;
     int topK = 100;
 
     PeriodicPartSetter periodicPartSetter(periodicMemory, CMGSUratio, delta, topK);
