@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/19.
-//
-
 #include "ThroughputTest.h"
 
 #include <fstream>

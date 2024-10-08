@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/2/16.
-//
-
 #include "GSUHeap.h"
 #include <algorithm>
 

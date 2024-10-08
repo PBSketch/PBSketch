@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/2/19.
-//
-
 #ifndef BRUSTSKETCHPERIOD_UPDOWNBURST_H
 #define BRUSTSKETCHPERIOD_UPDOWNBURST_H
 

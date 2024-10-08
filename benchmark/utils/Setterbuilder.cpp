@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/20.
-//
-
 #include "Setterbuilder.h"
 
 BurstSetter SetterBuilder::getNormalBurstSetter() {

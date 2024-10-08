@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/16.
-//
-
 #ifndef BRUSTSKETCHPERIOD_MEMORYTEST_H
 #define BRUSTSKETCHPERIOD_MEMORYTEST_H
 

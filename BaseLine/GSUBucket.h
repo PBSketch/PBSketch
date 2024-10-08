@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/2/20.
-//
-
 #ifndef BRUSTSKETCHPERIOD_GSUBUCKET_H
 #define BRUSTSKETCHPERIOD_GSUBUCKET_H
 

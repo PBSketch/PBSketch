@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/20.
-//
-
 #ifndef BRUSTSKETCHPERIOD_SETTERBUILDER_H
 #define BRUSTSKETCHPERIOD_SETTERBUILDER_H
 

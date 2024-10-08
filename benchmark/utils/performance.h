@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/14.
-//
-
 #ifndef BRUSTSKETCHPERIOD_PERFORMANCE_H
 #define BRUSTSKETCHPERIOD_PERFORMANCE_H
 

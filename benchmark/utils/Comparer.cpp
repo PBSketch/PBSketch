@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/14.
-//
-
 #include "Comparer.h"
 #include <cmath>
 #include <queue>

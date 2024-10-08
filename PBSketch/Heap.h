@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/2/16.
-//
-
 #ifndef BRUSTSKETCHPERIOD_HEAP_H
 #define BRUSTSKETCHPERIOD_HEAP_H
 

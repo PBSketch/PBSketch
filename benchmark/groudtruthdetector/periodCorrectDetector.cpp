@@ -39,7 +39,6 @@ std::map<PeridocItem, PBflow> &PeriodCorrectDetector::run() {
     return GSU;
 }
 
-//PeriodCorrectDetector::PeriodCorrectDetector(std::vector<Burst<uint64_t>> &_gt, double _delta): ground_truth(_gt),delta_(_delta) {}
 PeriodCorrectDetector::PeriodCorrectDetector(std::vector<Burst<uint64_t>> &_gt, double _delta): ground_truth(_gt) {
     if(_delta == 0){
         delta_ = 1;

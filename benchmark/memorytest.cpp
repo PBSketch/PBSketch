@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/16.
-//
-
 #include "memorytest.h"
 #include "groudtruthdetector/PBDetector.h"
 #include "../BaseLine//BaseLine.h"

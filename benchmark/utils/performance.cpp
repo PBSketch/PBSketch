@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/14.
-//
-
 #include "performance.h"
 
 Performance::Performance(double _pr, double _rc, double _aae, double _are) {

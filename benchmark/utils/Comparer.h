@@ -1,7 +1,3 @@
-//
-// Created by kalen on 2024/7/14.
-//
-
 #ifndef BRUSTSKETCHPERIOD_COMPARER_H
 #define BRUSTSKETCHPERIOD_COMPARER_H
 

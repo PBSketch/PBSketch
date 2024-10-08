@@ -16,7 +16,6 @@ public:
     uint64_t MEMORY;
 
 
-//    PeriodicSketch(uint32_t _MEMORY, int _topk, double ratio = 0.15 , double _delta = 1):heap(_topk), delta_(_delta){
     PeriodicSketch(uint32_t _MEMORY, int _topk, double ratio = 0.15 , double _delta = 1):heap(_topk){
 
         if(_delta == 0){
